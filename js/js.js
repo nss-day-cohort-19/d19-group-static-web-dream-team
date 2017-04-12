@@ -11,10 +11,5 @@ var basil = {
 // The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row
 
 
-var url = document.createElement('a');
-url.href = "http://www.example.com/some/path?name=value#anchor";
-var protocol = url.protocol;
-var hash = url.hash;
 
-console.log(hash);
 

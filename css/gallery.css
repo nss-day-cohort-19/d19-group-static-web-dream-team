@@ -1,3 +1,98 @@
-img a:active {
+/*---------------------------
+Navigation Bar
+----------------------------*/
+#navbar li:hover ul {
+  display: block;
+
+}
+#navbar {
+  display: block;
+  position: block;
+  position: fixed;
+  background-color: #000;
+  border: 1px solid #000;
+  font-weight: 500;
   font-size: 2em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 70px;
+  width: 1400px;
+  margin: 0;
+  padding-left: 20px;
+  margin-top: 0;
+}
+#navbar ul {
+  margin: 0px;
+  padding: 0px;
+}
+#navbar li {
+  position: relative;
+  float: left;
+  list-style-type: none;
+}
+ #navbar ul :after {
+  content: ".";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+ }
+#navbar ul ul {
+  display: none;
+  position: absolute;
+  left: 0px;
+  background-color: #000;
+
+}
+#navbar li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  border-right: 1px solid #000;
+  padding: 10px 25px;
+}
+#navbar ul ul li {
+  width: 99%;
+  border: 1px solid #000;
+}
+#navbar ul ul li a {
+  border-right: none;
+}
+#navbar a:hover {
+  font-size: -5px;
+  background: #000;
+}
+#navbar a:active {
+  font-size: 1em;
+}
+.hide {
+	display: none;
+}
+.top {
+	padding-top: 80px;
+}
+/*---------------------------
+Gallery Page
+----------------------------*/
+body {
+	width: 90%;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+div > div {
+    background-color: #fff;
+    width: 32%;
+ 	float: left;
+ 	border: 1px solid black;
+}
+.images {
+	padding-left: 10%;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border-radius: 100%
+}
+div > h1 {
+	padding-top: 40px;
 }

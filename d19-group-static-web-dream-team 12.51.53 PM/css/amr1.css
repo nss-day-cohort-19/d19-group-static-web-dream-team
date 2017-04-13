@@ -1,0 +1,88 @@
+#j1{
+	font-family: verdana;
+    font-size: 20px;
+    color: red;
+    width: 60%;
+	margin: auto;
+	padding: 25px 0;
+
+
+}
+
+#j2 {
+	font-family: verdana;
+    font-size: 20px;
+    color: red ;
+    width: 60%;
+	margin: auto;
+	padding: 25px 0;
+
+}
+#j3 {
+	font-family: verdana;
+    font-size: 20px;
+    color: red ;
+    width: 60%;
+	margin: auto;
+	padding: 25px 0;
+
+}
+#j4 {
+	font-family: verdana;
+    font-size: 20px;
+    color: red ;
+    width: 60%;
+	margin: auto;
+	padding: 25px 0;
+
+}
+
+#j5 {
+	font-family: verdana;
+    font-size: 20px;
+    color: red ;
+    width: 60%;
+	margin: auto;
+	padding: 25px 0;
+
+}
+
+h1 {
+	color:red;
+	padding: 25px;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	font-size: 4em;
+
+}
+
+h4 {
+	color:red;
+	padding: 10px;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+
+body {
+	background-color: black;
+	color: grey;
+}
+
+.logo {
+	display: block;
+	content: center;
+	width: 40%;
+	margin: auto;
+	padding: 10px 20px;
+	border-radius: 10%;
+	border: 1px solid red;
+}
+
+footer {
+	background: grey;
+	color: black;
+	padding-top: 15px;
+}

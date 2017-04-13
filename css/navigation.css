@@ -6,7 +6,6 @@
   display: block;
   position: block;
   position: fixed;
-<<<<<<< HEAD
   background-color: #009993;
   border: 1px solid #009993;
   font: bold 20px Sans-serif;
@@ -16,16 +15,6 @@
   padding-left: 5px;
 }
 
-=======
-  background-color: #000;
-  border: 1px solid #000;
-  font: bold 30px Sans-serif;
-  height: 70px;
-  width: 1400px;
-  margin: 0px auto;
-  padding-left: 10px;
-}
->>>>>>> master
 #navbar ul {
   margin: 0px;
   padding: 0px;
@@ -66,6 +55,7 @@
 }
 #navbar a:hover {
   font-size: 1em;
+  color: red;
   background: #000;
 }
 #navbar a:active {
